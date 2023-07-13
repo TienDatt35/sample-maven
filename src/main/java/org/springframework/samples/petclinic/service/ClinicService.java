@@ -31,22 +31,22 @@ import org.springframework.samples.petclinic.model.Visit;
  */
 public interface ClinicService {
 
-    // Collection<PetType> findPetTypes();
+    Collection<PetType> findPetTypes();
 
-    // Owner findOwnerById(int id);
+    Owner findOwnerById(int id);
 
-    // Pet findPetById(int id);
+    Pet findPetById(int id);
 
-    // void savePet(Pet pet);
+    void savePet(Pet pet);
 
-    // void saveVisit(Visit visit);
+    void saveVisit(Visit visit);
 
-    // Collection<Vet> findVets();
+    Collection<Vet> findVets();
 
-    // void saveOwner(Owner owner);
+    void saveOwner(Owner owner);
 
-    // Collection<Owner> findOwnerByLastName(String lastName);
+    Collection<Owner> findOwnerByLastName(String lastName);
 
-	// Collection<Visit> findVisitsByPetId(int petId);
+	Collection<Visit> findVisitsByPetId(int petId);
 
 }
